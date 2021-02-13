@@ -1,16 +1,15 @@
-package tasks;
+package com.utest.register.tasks;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
-import static userinterfaces.RegisterUserInterface.BTN_NEXTDEVICES;
-import static userinterfaces.RegisterUserInterface.TXT_CITY;
-import static userinterfaces.RegisterUserInterface.TXT_CITY_LIST;
-import static userinterfaces.RegisterUserInterface.TXT_COUNTRY;
-import static userinterfaces.RegisterUserInterface.TXT_COUNTRY_LIST;
-import static userinterfaces.RegisterUserInterface.TXT_POSTALCODE;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_NEXTDEVICES;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_CITY;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COUNTRY;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COUNTRY_LIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_POSTALCODE;
 
 import java.util.List;
 
-import models.UserSecond;
+import com.utest.register.models.UserSecond;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -30,8 +29,6 @@ public class RegisterTaskSecond implements Task {
     	actor.attemptsTo(
     			Enter.theValue(data.get(0).getCityfield()).into(TXT_CITY),
     			Click.on(TXT_CITY),
-				//WaitUntil.the(TXT_CITY_LIST,isClickable()).forNoMoreThan(20).seconds(),
-    			//Click.on(TXT_CITY_LIST),
     			Enter.theValue(data.get(0).getZiporpostalcodefield()).into(TXT_POSTALCODE),
     			Click.on(TXT_COUNTRY_LIST),
         		   WaitUntil.the(TXT_COUNTRY.of(data.get(0).getCountry()), isClickable()).forNoMoreThan(20).seconds(),

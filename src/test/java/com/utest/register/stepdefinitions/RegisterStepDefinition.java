@@ -1,28 +1,26 @@
-package stepdefinitions;
+package com.utest.register.stepdefinitions;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-
 import java.util.List;
-
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import models.ThirdField;
-import models.UserFirstFields;
-import models.UserSecond;
+import com.utest.register.models.ThirdField;
+import com.utest.register.models.UserFirstFields;
+import com.utest.register.models.UserSecond;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
-import questions.Answer;
-import tasks.OpenHome;
-import tasks.RegisterTaskFirts;
-import tasks.RegisterTaskSecond;
-import tasks.RegisterTaskThrid;
+import com.utest.register.questions.Answer;
+import com.utest.register.tasks.OpenHome;
+import com.utest.register.tasks.RegisterTaskFirts;
+import com.utest.register.tasks.RegisterTaskSecond;
+import com.utest.register.tasks.RegisterTaskThrid;
 
 public class RegisterStepDefinition {
 	

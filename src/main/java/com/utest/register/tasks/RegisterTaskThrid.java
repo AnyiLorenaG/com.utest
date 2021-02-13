@@ -1,16 +1,16 @@
-package tasks;
+package com.utest.register.tasks;
 
-import static userinterfaces.RegisterUserInterface.BTN_CONTINUE;
-import static userinterfaces.RegisterUserInterface.TXT_COMPUTER;
-import static userinterfaces.RegisterUserInterface.TXT_COMPUTER_lIST;
-import static userinterfaces.RegisterUserInterface.TXT_LENGUAGEFIELD;
-import static userinterfaces.RegisterUserInterface.TXT_LENGUAGEFIELD_LIST;
-import static userinterfaces.RegisterUserInterface.TXT_VERSION;
-import static userinterfaces.RegisterUserInterface.TXT_VERSION_LIS;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_CONTINUE;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COMPUTER;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COMPUTER_lIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_LENGUAGEFIELD;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_LENGUAGEFIELD_LIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_VERSION;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_VERSION_LIS;
 
 import java.util.List;
 
-import models.ThirdField;
+import com.utest.register.models.ThirdField;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

@@ -1,6 +1,6 @@
-package questions;
+package com.utest.register.questions;
 
-import static userinterfaces.RegisterUserInterface.*;
+import static com.utest.register.userinterfaces.RegisterUserInterface.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;

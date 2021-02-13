@@ -1,4 +1,4 @@
-package models;
+package com.utest.register.models;
 
 public class ThirdField {
 	String computer;

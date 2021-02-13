@@ -1,20 +1,20 @@
-package tasks;
+package com.utest.register.tasks;
 
-import static userinterfaces.RegisterUserInterface.BIRTHDAY;
-import static userinterfaces.RegisterUserInterface.BIRTHDAY_LIST;
-import static userinterfaces.RegisterUserInterface.BIRTHMOUNTH;
-import static userinterfaces.RegisterUserInterface.BIRTHMOUNTH_LIST;
-import static userinterfaces.RegisterUserInterface.BITHYEAR;
-import static userinterfaces.RegisterUserInterface.BITHYEAR_LIST;
-import static userinterfaces.RegisterUserInterface.BTN_JOINTODAY;
-import static userinterfaces.RegisterUserInterface.BTN_NEXTLOCATION;
-import static userinterfaces.RegisterUserInterface.TXT_EMAIL;
-import static userinterfaces.RegisterUserInterface.TXT_LASTNAME;
-import static userinterfaces.RegisterUserInterface.TXT_NAME;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHDAY;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHDAY_LIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHMOUNTH;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHMOUNTH_LIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BITHYEAR;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BITHYEAR_LIST;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_JOINTODAY;
+import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_NEXTLOCATION;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_EMAIL;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_LASTNAME;
+import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_NAME;
 
 import java.util.List;
 
-import models.UserFirstFields;
+import com.utest.register.models.UserFirstFields;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
